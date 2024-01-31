@@ -22,9 +22,15 @@ Ejecutamos con
 
 ·=- Como ofuscar el Script =-·
 Usa 
+
     cat .XCscript.sh | base64 > script.txt   
 
 ·-= Armar el ejecutable SemiOfuscado =-·
 
 Crea un ejecutable del script codificador, no sin antes modificarlo con el nombre del txt a leer en base 64
 
+
+
+# Por hacer
+
+Queremos generar un script que pueda generar una llave publica y privada para ofuscar el .txt resultante
